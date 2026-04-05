@@ -107,5 +107,4 @@ Luiz Iwasaki: 1,12,23,34,45,56,67,2,13,24,35,46,57,68,3,14,25,36,47,58,69,4,15,2
 
 <p align="center">
   Desenvolvido com dedicação por <a href="https://github.com/LuizIwasaki"><b>Luiz Iwasaki</b></a><br>
-  <i>Transformando código em diversão.</i>
 </p>
