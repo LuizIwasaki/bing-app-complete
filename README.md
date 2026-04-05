@@ -1,77 +1,111 @@
-# 🎱 Bingo 75 — Sistema Profissional em Python
+# <p align="center">🎱 Bingo 75 — Ultimate Pro Edition</p>
 
-![Capa do Bingo](images/image.png)
+<p align="center">
+  <img src="https://img.shields.io/badge/Python-3.8+-3776AB?style=for-the-badge&logo=python&logoColor=white" />
+  <img src="https://img.shields.io/badge/PyQt5-GUI-41CD52?style=for-the-badge&logo=qt&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLAlchemy-ORM-D71F00?style=for-the-badge&logo=sqlalchemy&logoColor=white" />
+  <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
+</p>
 
-Um sistema completo de Bingo de 75 bolas, desenvolvido com **Python**, **PyQt5** e **SQLAlchemy**. O projeto oferece uma experiência visual moderna e funcional para gerenciar partidas de bingo com múltiplos jogadores.
+<p align="center">
+  <b>Uma solução robusta e visualmente deslumbrante para gerenciamento de Bingo Profissional.</b>
+</p>
 
 ---
 
-## 📸 Demonstração Visual
+## 📺 Demonstração em Alta Performance
 
-### Interface Principal e Mesa de Sorteio
-O sistema apresenta uma mesa organizada com as 75 bolas, destacando cada coluna (B-I-N-G-O) com cores específicas e facilitando a visualização dos números já sorteados.
+Assista ao sistema em ação: o sorteio inteligente, a atualização em tempo real dos jogadores e a detecção instantânea do grande vencedor com efeitos visuais.
+
+<p align="center">
+  <a href="https://github.com/LuizIwasaki/bing-app-complete/raw/main/images/funcionamento-bingo.webm">
+    <img src="images/image.png" width="80%" alt="Clique para ver o vídeo" /><br>
+    <b>▶️ CLIQUE PARA ASSISTIR AO VÍDEO DE DEMONSTRAÇÃO</b>
+  </a>
+</p>
+
+---
+
+## ✨ Interface de Usuário Moderna
+
+O Bingo 75 foi projetado com foco na **UX (User Experience)**, trazendo clareza visual e feedback imediato para cada ação do globo.
 
 <div align="center">
-  <img src="images/image1.png" width="45%" alt="Interface Principal" />
-  <img src="images/image2.png" width="45%" alt="Sorteio em Andamento" />
+  <table border="0">
+    <tr>
+      <td>
+        <p align="center"><b>Dashboard Principal</b></p>
+        <img src="images/image1.png" width="400px" alt="Interface Principal" />
+      </td>
+      <td>
+        <p align="center"><b>Sorteio & Progressão</b></p>
+        <img src="images/image2.png" width="400px" alt="Sorteio em Andamento" />
+      </td>
+    </tr>
+  </table>
 </div>
 
-### 📽️ Funcionamento em Vídeo
-Confira o app em ação (Sorteio manual e automático):
-[Clique aqui para ver o vídeo](https://github.com/LuizIwasaki/bing-app-complete/raw/main/images/funcionamento-bingo.webm)
+---
+
+## 🚀 Funcionalidades de Elite
+
+### 🔮 Globo de Sorteio Inteligente
+- **Modo Manual**: Controle total sobre o ritmo da partida.
+- **Modo Automático**: Delay customizável para sorteios dinâmicos sem intervenção.
+- **Destaque de Última Bola**: O número atual brilha em destaque para facilitar o anúncio.
+
+### 📊 Painel de Jogadores (Live Tracking)
+- **Cards Dinâmicos**: Acompanhe o progresso de cada jogador através de mini-cartelas interativas.
+- **Barra de Vitória**: Visualização percentual de quão perto cada jogador está do "BINGO!".
+- **Check Automático**: O sistema valida cada bola sorteada contra todas as cartelas instantaneamente.
+
+### 🏗️ Arquitetura e Persistência
+- **Engine SQLAlchemy**: Gerenciamento de dados profissional com SQLite.
+- **Histórico de Auditoria**: Registre cada partida, cada número na ordem exata e o histórico de campeões.
 
 ---
 
-## 🚀 Funcionalidades principais
+## 🛠️ Stack Tecnológica
 
-- **Sorteio Inteligente**: Escolha entre o sorteio manual (um a um) ou o modo automático com tempo configurável.
-- **Mesa de Bingo Cromática**: Bolas organizadas por cores (Vermelho, Laranja, Verde, Azul e Roxo) para rápida identificação.
-- **Painel de Jogadores Dinâmico**: Cada jogador tem um card individual que mostra:
-  - Mini-cartela 5x5 atualizada em tempo real.
-  - Barra de progresso indicando quão perto o jogador está de completar o bingo.
-- **Persistência de Dados**: Todas as partidas, jogadores e números sorteados são salvos automaticamente no banco de dados SQLite (`bingo.db`).
-- **Identificação de Vencedor**: O sistema detecta automaticamente quando uma cartela é completada e destaca o vencedor visualmente.
+- **Core**: Python 3.x
+- **UI/UX**: PyQt5 (Custom StyleSheets)
+- **Database**: SQLAlchemy + SQLite
+- **Workflow**: Programação Assíncrona para UI fluida
 
 ---
 
-## 🛠️ Tecnologias Utilizadas
+## 📦 Guia Rápido de Instalação
 
-- **Python 3**: Linguagem base.
-- **PyQt5**: Interface gráfica avançada e responsiva.
-- **SQLAlchemy**: ORM para gerenciamento robusto do banco de dados SQLite.
-
----
-
-## 📦 Como Instalar e Executar
-
-1. **Clone o repositório**:
-   ```bash
-   git clone https://github.com/LuizIwasaki/bing-app-complete.git
-   cd bing-app-complete
-   ```
-
-2. **Instale as dependências**:
-   ```bash
-   pip install PyQt5 SQLAlchemy
-   ```
-
-3. **Execute o projeto**:
-   ```bash
-   python main.py
-   ```
-
----
-
-## 📄 Arquivo CARTELAS.TXT
-
-O sistema carrega os participantes a partir deste arquivo. 
-
-**Formato:**
-```text
-Nome do Jogador: num1,num2,num3...num24
+### 1. Preparar Ambiente
+```bash
+git clone https://github.com/LuizIwasaki/bing-app-complete.git
+cd bing-app-complete
 ```
-*Observação: A posição central (FREE) é gerenciada automaticamente pelo sistema.*
+
+### 2. Instalar Dependências
+```bash
+pip install PyQt5 SQLAlchemy
+```
+
+### 3. Let's Play!
+```bash
+python main.py
+```
 
 ---
 
-<p align="center">Desenvolvido por <a href="https://github.com/LuizIwasaki">LuizIwasaki</a></p>
+## 📝 Configuração de Jogadores (`CARTELAS.TXT`)
+
+Adicione jogadores de forma simples e rápida seguindo o padrão:
+
+```text
+# Nome do Jogador: lista de 24 números separados por vírgula
+Luiz Iwasaki: 1,12,23,34,45,56,67,2,13,24,35,46,57,68,3,14,25,36,47,58,69,4,15,26
+```
+
+---
+
+<p align="center">
+  Desenvolvido com dedicação por <a href="https://github.com/LuizIwasaki"><b>Luiz Iwasaki</b></a><br>
+  <i>Transformando código em diversão.</i>
+</p>
