@@ -1,0 +1,11 @@
+# Arquivo de Cartelas do Bingo
+# Formato: NOME_DO_JOGADOR: num1,num2,...,num24
+# Cada jogador deve ter exatamente 24 números únicos entre 1 e 75
+# A linha FREE (centro da cartela 5x5) é gerenciada automaticamente
+
+Maria Silva: 3,12,18,24,31,42,48,55,61,70,7,15,22,38,45,52,63,9,27,34,50,67,73,1
+João Souza: 5,14,19,28,35,44,51,58,66,72,8,17,23,32,41,47,54,62,69,11,26,39,56,74
+Ana Lima: 2,10,20,29,36,43,49,57,65,71,6,16,25,33,40,46,53,60,68,13,30,37,64,75
+Carlos Mendes: 4,11,21,30,37,44,50,59,67,72,9,18,24,33,42,48,55,63,70,14,27,38,52,68
+Fernanda Costa: 6,15,22,31,38,45,51,60,68,73,10,19,26,34,41,47,54,62,69,3,28,40,57,75
+Pedro Rocha: 8,17,23,32,39,46,52,61,69,74,12,21,28,36,43,49,56,64,71,5,30,37,58,66
