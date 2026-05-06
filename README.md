@@ -7,20 +7,14 @@
   <img src="https://img.shields.io/badge/SQLite-Database-003B57?style=for-the-badge&logo=sqlite&logoColor=white" />
 </p>
 
-<p align="center">
-  <b>Uma solução robusta e visualmente deslumbrante para gerenciamento de Bingo Profissional.</b>
-</p>
-
 ---
 
 ## 📺 Demonstração em Alta Performance
 
-Assista ao sistema em ação: o sorteio inteligente, a atualização em tempo real dos jogadores e a detecção instantânea do grande vencedor com efeitos visuais.
-
 <p align="center">
   <a href="https://github.com/LuizIwasaki/bing-app-complete/raw/main/images/funcionamento-bingo.webm">
     <img src="images/image.png" width="80%" alt="Clique para ver o vídeo" /><br>
-    <b>▶️ CLIQUE PARA ASSISTIR AO VÍDEO DE DEMONSTRAÇÃO</b>
+    <b>▶️ CLIQUE PARA ASSISTIR A DEMONSTRAÇÃO</b>
   </a>
 </p>
 
@@ -47,7 +41,7 @@ O Bingo 75 foi projetado com foco na **UX (User Experience)**, trazendo clareza 
 
 ---
 
-## 🚀 Funcionalidades de Elite
+## 🚀 Funcionalidades
 
 ### 🔮 Globo de Sorteio Inteligente
 - **Modo Manual**: Controle total sobre o ritmo da partida.
