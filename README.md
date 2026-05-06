@@ -9,31 +9,31 @@
 
 ---
 
-## 📺 Demonstração em Alta Performance
+## 📺 High Performance Demonstration
 
 <p align="center">
   <a href="https://github.com/LuizIwasaki/bing-app-complete/raw/main/images/funcionamento-bingo.webm">
-    <img src="images/image.png" width="80%" alt="Clique para ver o vídeo" /><br>
-    <b>▶️ CLIQUE PARA ASSISTIR A DEMONSTRAÇÃO</b>
+    <img src="images/image.png" width="80%" alt="Click to watch the video" /><br>
+    <b>▶️ CLICK TO WATCH THE DEMONSTRATION</b>
   </a>
 </p>
 
 ---
 
-## ✨ Interface de Usuário Moderna
+## ✨ Modern User Interface
 
-O Bingo 75 foi projetado com foco na **UX (User Experience)**, trazendo clareza visual e feedback imediato para cada ação do globo.
+Bingo 75 was designed with a focus on **UX (User Experience)**, providing visual clarity and immediate feedback for every action of the cage.
 
 <div align="center">
   <table border="0">
     <tr>
       <td>
-        <p align="center"><b>Dashboard Principal</b></p>
-        <img src="images/image1.png" width="400px" alt="Interface Principal" />
+        <p align="center"><b>Main Dashboard</b></p>
+        <img src="images/image1.png" width="400px" alt="Main Interface" />
       </td>
       <td>
-        <p align="center"><b>Sorteio & Progressão</b></p>
-        <img src="images/image2.png" width="400px" alt="Sorteio em Andamento" />
+        <p align="center"><b>Draw & Progression</b></p>
+        <img src="images/image2.png" width="400px" alt="Draw in Progress" />
       </td>
     </tr>
   </table>
@@ -41,42 +41,42 @@ O Bingo 75 foi projetado com foco na **UX (User Experience)**, trazendo clareza 
 
 ---
 
-## 🚀 Funcionalidades
+## 🚀 Features
 
-### 🔮 Globo de Sorteio Inteligente
-- **Modo Manual**: Controle total sobre o ritmo da partida.
-- **Modo Automático**: Delay customizável para sorteios dinâmicos sem intervenção.
-- **Destaque de Última Bola**: O número atual brilha em destaque para facilitar o anúncio.
+### 🔮 Intelligent Bingo Cage
+- **Manual Mode**: Full control over the pace of the game.
+- **Automatic Mode**: Customizable delay for dynamic draws without intervention.
+- **Last Ball Highlight**: The current number glows prominently to facilitate announcements.
 
-### 📊 Painel de Jogadores (Live Tracking)
-- **Cards Dinâmicos**: Acompanhe o progresso de cada jogador através de mini-cartelas interativas.
-- **Barra de Vitória**: Visualização percentual de quão perto cada jogador está do "BINGO!".
-- **Check Automático**: O sistema valida cada bola sorteada contra todas as cartelas instantaneamente.
+### 📊 Players Panel (Live Tracking)
+- **Dynamic Cards**: Track each player's progress through interactive mini-cards.
+- **Victory Bar**: Percentage visualization of how close each player is to "BINGO!".
+- **Auto Check**: The system instantly validates every drawn ball against all cards.
 
-### 🏗️ Arquitetura e Persistência
-- **Engine SQLAlchemy**: Gerenciamento de dados profissional com SQLite.
-- **Histórico de Auditoria**: Registre cada partida, cada número na ordem exata e o histórico de campeões.
+### 🏗️ Architecture and Persistence
+- **SQLAlchemy Engine**: Professional data management with SQLite.
+- **Audit History**: Log every match, every number in exact order, and the champions' history.
 
 ---
 
-## 🛠️ Stack Tecnológica
+## 🛠️ Tech Stack
 
 - **Core**: Python 3.x
 - **UI/UX**: PyQt5 (Custom StyleSheets)
 - **Database**: SQLAlchemy + SQLite
-- **Workflow**: Programação Assíncrona para UI fluida
+- **Workflow**: Asynchronous programming for a fluid UI
 
 ---
 
-## 📦 Guia Rápido de Instalação
+## 📦 Quick Installation Guide
 
-### 1. Preparar Ambiente
+### 1. Prepare Environment
 ```bash
 git clone https://github.com/LuizIwasaki/bing-app-complete.git
 cd bing-app-complete
 ```
 
-### 2. Instalar Dependências
+### 2. Install Dependencies
 ```bash
 pip install PyQt5 SQLAlchemy
 ```
@@ -88,17 +88,17 @@ python main.py
 
 ---
 
-## 📝 Configuração de Jogadores (`CARTELAS.TXT`)
+## 📝 Player Configuration (`CARTELAS.TXT`)
 
-Adicione jogadores de forma simples e rápida seguindo o padrão:
+Add players quickly and easily following the pattern:
 
 ```text
-# Nome do Jogador: lista de 24 números separados por vírgula
+# Player Name: list of 24 numbers separated by commas
 Luiz Iwasaki: 1,12,23,34,45,56,67,2,13,24,35,46,57,68,3,14,25,36,47,58,69,4,15,26
 ```
 
 ---
 
 <p align="center">
-  Desenvolvido com dedicação por <a href="https://github.com/LuizIwasaki"><b>Luiz Iwasaki</b></a><br>
+  Developed with dedication by <a href="https://github.com/LuizIwasaki"><b>Luiz Iwasaki</b></a><br>
 </p>
